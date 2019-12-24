@@ -8,11 +8,8 @@ class MyApp extends StatelessWidget {
         title: "DSC APP",
         home: Scaffold(
             appBar: AppBar(actions: <Widget>[
-              IconButton(
-                    icon: Icon(Icons.arrow_back_ios,size: 35.0,color: Colors.blueGrey),
-                    tooltip: 'Back',
-                    onPressed: () {}
-                ),
+              titleSpacing: 0,
+              leading: Icon(Icons.arrow_back_ios,size: 35.0,color: Colors.blueGrey),
               IconButton(
                   icon: const Icon(Icons.account_circle,size: 35.0,color: Colors.blueGrey),
                   tooltip: 'Account',
